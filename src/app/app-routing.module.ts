@@ -9,7 +9,6 @@ const routes: Routes = [
   {
     path: '**',
     redirectTo: 'selector',
-    //loadChildren: lazyload
   }
 ];
 
