@@ -18,7 +18,7 @@
       <label class="form-label">Country:</label>
       <select formControlName="region" class="form-control">
         <option value="">--Select Country--</option>
-       <!--  <option *ngFor="let region of regions" [value]="region">{{region}}</option> -->
+        <option *ngFor="let c of countriesByRegion" [value]="c.cca3">{{c.name}}</option>
       </select>
     </div>
   </div>
